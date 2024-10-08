@@ -1,0 +1,17 @@
+.Post {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .Data {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  input {
+	margin-bottom: 11px;
+}
+  

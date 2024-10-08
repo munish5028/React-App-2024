@@ -1,0 +1,302 @@
+/*  */
+/* Home page Coding css  */
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #000000;
+  color: white;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+}
+li {
+  margin: 2px;
+  padding: 12px;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: rgb(87, 140, 238);
+}
+
+/* Home page coding css ends  */
+
+/* body start  */
+
+main {
+  position: relative;
+  background-color: lightgoldenrodyellow;
+}
+.container-left {
+  background-color: #055c5f;
+  width: 20%;
+  float: left;
+  height: 87.2vh;
+  color: white;
+}
+.container-right {
+  background-color: rgb(230, 230, 230);
+  width: 80%;
+  float: right;
+  height: 92.8vh;
+}
+.container-body {
+  color: rgb(0, 0, 0);
+}
+h1 {
+  margin-left: 40%;
+  padding-top: 22px;
+}
+.box-1 {
+  height: 220px;
+  width: 230px;
+  background-color: #129797;
+  padding: 12px;
+}
+.box-2 {
+  height: 220px;
+  width: 230px;
+  background-color: #2a68b9;
+  padding: 12px;
+}
+.box-3 {
+  padding: 12px;
+  height: 220px;
+  width: 230px;
+  background-color: rgb(172, 55, 20);
+}
+.box-4 {
+  padding: 12px;
+  height: 220px;
+  width: 230px;
+  background-color: rgb(145, 132, 23);
+}
+.container-body {
+  display: flex;
+  justify-content: space-between;
+  margin: 180px 20px;
+}
+.img-1 {
+  height: 139px;
+  width: 220px;
+  background-color: rgb(218, 233, 218);
+  margin-bottom: 8px;
+}
+.img-1 img {
+  height: 140px;
+  width: 220px;
+}
+
+/* body ends */
+td {
+  border: 1px solid gray;
+  background-color: rgb(233, 232, 232);
+  padding: 4px;
+  margin: 1px;
+}
+td:hover {
+  color: black;
+  cursor: pointer;
+  background-color: rgb(236, 215, 177);
+}
+button {
+  padding: 7px;
+  margin: 2px;
+  background-color: black;
+  color: white;
+  border-radius: 20%;
+}
+button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.table.table-striped {
+  background: lightblue;
+}
+h2 {
+  margin-left: 50%;
+  margin-top: 8%;
+}
+.Email {
+  margin: 12px;
+  padding: 6px;
+  width: 20%;
+  margin-left: 34%;
+}
+.Passcode {
+  margin: 12px;
+  padding: 6px;
+  width: 20%;
+  margin-left: 34%;
+}
+.btn-submit {
+  margin-left: 40%;
+}
+.box {
+  margin-left: 50%;
+}
+.table.table-striped {
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20px;
+  overflow: hidden;
+  height: 100vh;
+  font-size: 12px;
+  box-sizing: border-box;
+  width: 1100px;
+}
+.Email-1 {
+  margin-left: 28%;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+.passcode-1 {
+  margin-left: 27.5%;
+  padding: 6px;
+}
+.passcode-111 {
+  margin-left: 41.4%;
+  padding: 6px;
+}
+.passcode-11 {
+  margin-left: 43.4%;
+  padding: 7px;
+  margin-top: 12px;
+}
+.passcode-3 {
+  margin-left: 27.5%;
+  padding: 6px;
+  margin-top: 14px;
+}
+.btn-2 {
+  margin-left: 45.5%;
+  margin-top: 9px;
+}
+.btn-29 {
+  margin-left: 46.5%;
+  margin-top: 9px;
+}
+.mrg-1 {
+  margin-top: 16px;
+  margin-bottom: -3px;
+  margin-left: 43.4%;
+  padding: 7px;
+}
+.mrg-111 {
+  margin-top: 16px;
+  margin-bottom: -3px;
+  margin-left: 41.4%;
+  padding: 7px;
+}
+.mrg-3 {
+  margin-top: 16px;
+  margin-bottom: 12px;
+  margin-left: 27.5%;
+  padding: 7px;
+}
+.mrg-33 {
+  margin-top: 16px;
+  margin-bottom: 12px;
+  margin-left: 41.4%;
+  padding: 7px;
+}
+.mrg-2 {
+  margin-top: 122px;
+  margin-bottom: 12px;
+  margin-left: 45%;
+}
+.mrg-9 {
+  margin-top: 122px;
+  margin-bottom: 12px;
+  margin-left: 48%;
+}
+.mrg-91 {
+  margin-top: 122px;
+  margin-bottom: 12px;
+  margin-left: 41.4%;
+}
+.loginform {
+  margin-top: 15%;
+  margin-left: 42%;
+}
+
+/* Crud Css  */
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.data-table th {
+  background-color: #f2f2f2;
+}
+
+.CRUD {
+  margin-top: 30px;
+  margin-left: 45%;
+}
+.CRUD-1 {
+  margin-top: 16px;
+  margin-bottom: -3px;
+  margin-left: 44%;
+  padding: 7px;
+}
+.CRUD-2 {
+  margin-top: 16px;
+  margin-bottom: -3px;
+  margin-left: 44%;
+  padding: 7px;
+}
+.CRUD-3 {
+  margin-top: 16px;
+  margin-bottom: -3px;
+  margin-left: 44%;
+  padding: 7px;
+}
+.btn-new {
+  margin-left: 48.5%;
+  margin-top: 9px;
+}
+.mrg-new {
+	margin-top: 51px;
+	margin-bottom: 12px;
+	margin-left: 46%;
+}
+
+/* curd css  */
+
+.centre {
+	color: red;
+	margin-left: 2.5%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.btn-37.btn.btn-primary {
+	margin-left: 635px;
+}
+.btn-2 {
+	margin-left: 48.5%;
+	margin-top: 9px;
+	margin-bottom: 8px;
+}
+.btn-37.btn.btn-primary {
+	margin-left: 635px;
+	margin-top: 2px;
+}
+#Right {
+	margin-left: 46%;
+	margin-top: 22px;
+}
